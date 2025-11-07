@@ -1,0 +1,28 @@
+{
+  "name": "spicetrail",
+  "version": "1.0.0",
+  "description": "SpiceTrail MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "recipe",
+    "mern",
+    "nodejs",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "serverless-http": "^3.2.0"
+  }
+}
